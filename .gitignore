@@ -1,0 +1,24 @@
+# Ignore the directory for build outputs
+/tmp/
+
+# Ignore compiled binary (Go binaries, typically in the root directory)
+*.exe
+*.out
+*.bin
+main
+leadreverse
+
+# Ignore dependencies directory (if applicable, though typically managed in Go modules)
+vendor/
+
+# Ignore IDE/editor configuration files (VS Code, IntelliJ, etc.)
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment-specific files (if any)
+.env
+
